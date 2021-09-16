@@ -6,7 +6,6 @@
 	--background: #EAE7DC;
 	--heading-font-family:"Lato", sans-serif;
 	--text-font-family:"Source Sans Pro", sans-serif;
-
   
 }
 
@@ -25,20 +24,24 @@ body{
 	text-align: center;
 	font-family: var(--text-font-family);
 
-
 }
+
 .ingredients{
 	width: 50%;
 	text-align: left;
-	margin: 2rem auto;
+	margin: 2rem;
 	overflow: hidden;
 
 
 
 }
 
+
 .food{
-	width: 25%;
+	width: 20%;
+	height: 20%;
+	float: left;
+	margin-right: 2rem;
 }
 
 
@@ -52,3 +55,38 @@ p{
 
 }
 
+.making{
+	margin-top: 20rem;
+	display: flex;
+	justify-content: center;	
+
+	
+}
+.making li{
+	text-align: left;
+
+
+
+}
+
+.site{
+	margin-left: 10%;
+	margin-right: 10%;
+
+}
+footer{
+	margin-top:25rem;
+
+
+}
+footer a{
+	text-decoration: none;
+	color: var(--text);
+
+
+}
+li{
+
+font-size: 1rem;
+
+}
